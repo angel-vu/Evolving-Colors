@@ -148,16 +148,19 @@ class Automata {
 
         // Still lifes
         this.addBlock(10, 10);
-        this.addHive(14, 11, false);
-        this.addHive(21, 10, true);
+        this.addHive(60, 20, false); 
+        this.addHive(120, 40, true); 
+
         // Oscillators
         this.addBlinker(30, 11);
+
         // Guns
         this.addGosper(10, 50);
+
         // Spaceships
         this.addGlider(20, 15);
-        this.addSpaceship(30, 20);
-        this.addQueenBeeShuttle(25, 15);
+        this.addSpaceship(120, 80); 
+        this.addQueenBeeShuttle(50, 70); 
     };
 
     // Count the number of live neighbors for a cell
