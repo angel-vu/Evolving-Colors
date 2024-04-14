@@ -14,7 +14,7 @@ ASSET_MANAGER.downloadAll(() => {
 	});
 
 	document.getElementById("animat").addEventListener("click", () => {
-		gameEngine.addEntity(new Animat({x:randomInt(PARAMETERS.dimension), y:randomInt(PARAMETERS.dimension), hue:randomInt(360)}, automata));
+		gameEngine.addEntity(new Animat({x: randomInt(PARAMETERS.dimension), y: randomInt(PARAMETERS.dimension), hue: randomInt(360)}, automata));
 	});
 
 	document.getElementById("clear").addEventListener("click", () => {
